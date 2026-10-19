@@ -51,7 +51,7 @@ const money = (n) => Number(n).toFixed(2);
 
 <template>
     <main class="mx-auto max-w-3xl p-4 sm:p-8">
-        <h1 class="mb-6 text-2xl font-semibold">Expense Tracker</h1>
+        <h1 class="mb-6 text-2xl font-semibold">DevOps Project - Expense Tracker</h1>
 
         <form class="mb-8 grid gap-3 rounded-lg bg-white p-4 shadow-sm sm:grid-cols-2" @submit.prevent="save">
             <label class="grid gap-1 text-sm">
