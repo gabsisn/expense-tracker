@@ -48,3 +48,4 @@ while true; do curl -s -o /dev/null -w '%{http_code}\n' http://localhost:8000/; 
 - **Database:** set `DB_CONNECTION` (sqlite by default; mysql/pgsql work unchanged).
 - **Queue:** `QUEUE_CONNECTION=database` by default; switch to `redis` etc.
 - **Receipts storage:** change `FILESYSTEM_DISK` to a cloud disk (e.g. an Azure Blob adapter) — the code only uses the default disk.
+# expense-tracker
